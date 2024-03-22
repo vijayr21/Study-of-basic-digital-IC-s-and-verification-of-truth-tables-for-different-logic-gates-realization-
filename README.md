@@ -60,13 +60,32 @@ Check all the gates following the same procedure.
 Program:
 /*
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: VIJAY R
+RegisterNumber: 212223240178
+```
+module logicgate_top(a,b,y1,y2,y3,y4,y5,y6,y7);
+input a,b;
+output y1,y2,y3,y4,y5,y6,y7;
+and(y1,a,b);
+or(y2,a,b);
+not(y3,a);
+nand(y4,a,b);
+nor(y5,a,b);
+xor(y6,a,b);
+xnor(y7,a,b);
+endmodule
+```
 */
 Logic symbol & Truthtable
+![WhatsApp Image 2024-03-22 at 13 20 27_bcc8c1e1](https://github.com/vijayr21/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/149347607/9eac4d01-25cc-4c0d-9055-f62aa0705b4b)
+
 RTL realization
+![WhatsApp Image 2024-03-22 at 13 20 28_a23d47a3](https://github.com/vijayr21/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/149347607/91255bec-72d1-4479-88d5-80fa663cb0a3)
+
 Output:
 RTL
+![WhatsApp Image 2024-03-22 at 13 20 29_f73a03e8](https://github.com/vijayr21/Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-/assets/149347607/6404252f-35f9-44f5-a7ae-f5690bbc256a)
+
 
 Result:
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
